@@ -1,0 +1,14 @@
+.actionButton{
+    cursor: pointer;
+    padding: 6px 12px 6px 12px;
+    border-radius: 5px;
+    margin: 3px;
+}
+.actionButton:focus{
+    background-color: #21d150;
+}
+.actionButton:hover{
+    font-size: 12px;
+    background-color: #21d150;
+
+}

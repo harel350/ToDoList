@@ -1,0 +1,29 @@
+
+.inputAddNewTask{
+    padding: 10px 30px 10px 30px;
+    margin: 0;
+    width: 75%;
+    background-color: unset;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border:0px;
+    padding-left:0;
+    border-bottom: 2px solid black;
+}
+.inputAddNewTask::placeholder{
+    color:black
+}
+.iconPlus{
+    font-size: 30px;
+    cursor: pointer;
+}
+.iconPlus:hover{
+    color: green;
+    opacity: 0.7;
+}
+.addTeskContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

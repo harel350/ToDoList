@@ -1,0 +1,29 @@
+.taskContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.iconTrash{
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 9px;
+}
+.iconTrash:hover{
+    color: red;
+    animation: iconTrashHover 0.3s infinite ;
+}
+@keyframes iconTrashHover {
+    0%{
+        transform: rotate(20deg)
+    }
+    50%{
+        transform: rotate(-20deg)
+    }
+    100%{
+        transform: rotate(20deg)
+    }
+  }
